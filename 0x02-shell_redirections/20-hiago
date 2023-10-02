@@ -1,2 +1,2 @@
-#!bin/bash
-tr -dc '[:alnum:]\n\r' | tr '[c]' '[C]'
+#!/bin/bash
+tr -d Cc 
